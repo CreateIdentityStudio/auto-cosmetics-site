@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced Car Detailing Services</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Advanced Car Detailing Services</h1>
+    <p>Professional Car Cleaning & Paint Protection</p>
+    <a href="#contact" class="btn">Contact Us</a>
+  </header>
+
+  <section>
+    <h2>About Us</h2>
+    <p style="text-align: center;">
+      We offer premium car detailing services using state-of-the-art tools and eco-friendly products to bring back that showroom shine.
+    </p>
+  </section>
+
+  <section class="grey">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service-card">
+        <img src="images/car-small.PNG" alt="Exterior Detailing">
+        <h3>Exterior Detailing</h3>
+      </div>
+      <div class="service-card">
+        <img src="images/car-small.PNG" alt="Interior Detailing">
+        <h3>Interior Detailing</h3>
+      </div>
+      <div class="service-card">
+        <img src="images/car-small.PNG" alt="Paint Protection">
+        <h3>Paint Protection</h3>
+      </div>
+      <div class="service-card">
+        <img src="images/car-small.PNG" alt="Engine Cleaning">
+        <h3>Engine Cleaning</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section>
+    <h2>Customer Reviews</h2>
+    <div style="text-align: center;">
+         Replace with your Elfsight widget embed code
+      <div id="google-reviews-widget">
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <div class="elfsight-app-YOUR_WIDGET_CODE"></div>
+      </div>
+    </div>
+  </section> -->
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contact-form" action="https://formspree.io/f/xvgajopn" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button class="btn" type="submit">Send Message</button>
+    </form>
+      <div id="form-response"></div>
+  </section>
+
+  <footer>
+    &copy; Copyright <script language='javascript'>var yy = (new Date()).getYear(); var year = (yy < 1000) ? yy + 1900 : yy; document.write("" + year);</script> - Auto Cosmetics. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
